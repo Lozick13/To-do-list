@@ -1,0 +1,42 @@
+.header {
+	display: flex;
+	flex-direction: column;
+
+	padding: 25px 0;
+
+	border-bottom: 2px solid #000;
+	background-color: #e5ffe6;
+
+	align-items: center;
+	gap: 40px;
+}
+.logo {
+	display: flex;
+
+	cursor: default;
+
+	align-items: center;
+	gap: 12px;
+}
+.logo__image {
+	width: 45px;
+}
+
+.categories {
+	display: flex;
+
+	gap: 20px;
+}
+.categories__item {
+	width: 200px;
+	padding: 10px 0;
+
+	border: none;
+	border-radius: 10px;
+	background: #e5e5e5;
+}
+.categories__item_selected,
+.categories__item:hover {
+	color: white;
+	background: #000;
+}
